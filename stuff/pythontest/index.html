@@ -1,0 +1,65 @@
+﻿<html> 
+	<head> 
+		<title> 
+			Python test
+		</title> 
+		<script src="jquery.min.js"></script>
+		<script src="python.js"></script> 
+		<script> 
+			var lines = [], printed = false;
+
+			function print(text) {
+				lines.push(text);
+				printed = true;
+			}
+
+			function execute(text) {
+				lines = [];
+				printed = false;
+
+				var element = document.getElementById('output');
+				if (!element) return; // perhaps during startup
+
+				var ptr = Module.Pointer_make(Module.intArrayFromString(text), 0, 2); // leak!
+				try {
+					Module._PyRun_SimpleStringFlags(ptr, 0);
+				} catch(e) {
+					if (e === 'halting, since this is the first run') return;
+					element.innerHTML = 'JS crash: |<b>' + e + '</b>|. Please let us know about this problem!<hr>' + element.innerHTML;
+					return;
+				}
+
+				if (printed) {
+					element.innerHTML = lines.map(function(line) { return line.replace('<', '&lt;', 'g') }).join('<br>') + '<hr>' + element.innerHTML;
+				} else {
+					element.innerHTML = '<small><i>(no output)</i></small><hr>' + element.innerHTML;
+				}
+			}
+
+			var editor;
+
+			function doRun() {
+				args = ['-S', '-c', 'print ""'];
+				try {
+					Module.run(args);
+				} catch (e) {
+					if (e !== 'halting, since this is the first run') throw e;
+				}
+				execute("print 2");
+			}
+
+	</script> 
+	</head> 
+	<body onload="doRun();"> 
+		<form onsubmit="javascript:alert(3); return false"> 
+			<textarea id="the_input" rows="25" cols="80">
+				import sys
+				print 'Hello world! This is Python {} on {}'.format(sys.version, sys.platform)
+				print 'Here are some numbers:', [2*x for x in range(5)][:4]
+			</textarea> 
+			<br/>
+			<input type="submit" value="execute"> 
+		</form> 
+	<div id="output" style="font-family: Courier New,Courier,monospace;"></div> 
+	</body> 
+</html> 

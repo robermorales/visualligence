@@ -1,0 +1,22 @@
+<svg>
+
+	<defs id="defs17">
+		<linearGradient id="a">
+			<stop id="stop1" style="stop-color:#ffffff;stop-opacity:1" offset="0" />
+			<stop id="stop2" style="stop-color:#ffffff;stop-opacity:0" offset="1" />
+		</linearGradient>
+		<linearGradient id="b" x1="1" y1="1" x2="0" y2="0" xlink:href="#a" gradientUnits="objectBoundingBox" />
+	</defs>
+
+<rect x='13.333333%' y='35.600000%' width='14.000000%' height='54.400000%' style="fill:red" />
+<rect x='13.333333%' y='35.600000%' width='14.000000%' height='54.400000%' style="fill:url(#b)" />
+<rect x='30.666667%' y='51.600000%' width='14.000000%' height='38.400000%' style="fill:green" />
+<rect x='30.666667%' y='51.600000%' width='14.000000%' height='38.400000%' style="fill:url(#b)" />
+<rect x='48.000000%' y='32.400000%' width='14.000000%' height='57.600000%' style="fill:blue" />
+<rect x='48.000000%' y='32.400000%' width='14.000000%' height='57.600000%' style="fill:url(#b)" />
+<rect x='65.333333%' y='42.000000%' width='14.000000%' height='48.000000%' style="fill:magenta" />
+<rect x='65.333333%' y='42.000000%' width='14.000000%' height='48.000000%' style="fill:url(#b)" />
+<rect x='82.666667%' y='54.800000%' width='14.000000%' height='35.200000%' style="fill:yellow" />
+<rect x='82.666667%' y='54.800000%' width='14.000000%' height='35.200000%' style="fill:url(#b)" />
+<rect x='10%' y='90%' width='90%' height='0.5px' style='fill:black;' />
+<rect x='10%' y='0%' width='0.5px' height='90%' style='fill:black;' />

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]--> 
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]--> 
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]--> 
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]--> 
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js" xmlns="http://www.w3.org/1999/xhtml"> <!--<![endif]--> 
+<head>
+<title>Visualization Demo</title>
+	
+	<meta charset="utf-8">
+	<meta name="Robots"                content="All"/>
+	<meta name="Viewport"              content="width=device-width, initial-scale=1.0"> 
+	<meta name="Distribution"          content="Global" />
+	<meta http-equiv="Content-Type"    content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+
+	<meta name="Author"       content="Rober Morales-Chaparro"> 
+	<meta name="Keywords"     content="visualization, data visualization, data, graph, dv"/>
+	<meta name="Description"  content="visualization, data visualization, data, graph, dv"/>
+	
+	<link rel="stylesheet"       href="./bp/css/style.css?v=2"/>
+	<link rel="stylesheet"       href="./bp/css/smoothness/jquery-ui-1.8.6.custom.css" />
+	<link rel="stylesheet"       href="./css/style.css"/>
+
+	<link rel="shortcut icon"    href="./favicon.ico"/>
+	<link rel="apple-touch-icon" href="./apple-touch-icon.png"/>
+
+<!--
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		google.load("visualization", "1", {packages:["geomap","table","motionchart","corechart","intensitymap"]});
+		google.setOnLoadCallback( dvinit );
+	</script>
+-->
+
+</head>
+<body>
+	<header>
+		<h1>Visualligence IDE</h1>
+		<strong>Status</strong>
+		<span id="userlog">&nbsp;</span>
+	</header>
+
+<!--
+
+	<article id="data">
+		<strong>Data</strong>
+		<input type="text" enabled="false" id="datasource"/>
+	</article>
+
+	<article id="setup">
+		<strong>Setup</strong>
+			
+	</article>
+
+-->
+
+	<article id="datavis">
+		<h3>Visualization</h3>
+			<div id="datavis_main" class="datavis">&nbsp;</div>
+	
+	</article>
+
+	<footer>
+		2011 © Rober Morales-Chaparro
+	</footer>
+
+	<script src="./bp/js/modernizr-1.6.min.js"></script>
+<!--	<script src="//code.jquery.com/jquery-1.6.2.min.js"></script>-->
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="./bp/js/jquery-1.6.2.min.js"%3E%3C/script%3E'))</script> 
+<!--	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js"></script>-->
+	<script>!window.jQuery.ui && document.write(unescape('%3Cscript src="./bp/js/jquery-ui-1.8.6.min.js"%3E%3C/script%3E'))</script> 
+
+<!-- estos 5 deberían ir dinámicamente... -->
+	<script src="../workspace/test1/main.js"></script>
+	<script src="../patterns/patterns.js"></script>
+	<script src="../patterns/googlestatic/googlestatic.js"></script>
+	<script src="../patterns/googlestatic/barchart/barchart.js"></script>
+	<script src="../patterns/visualligence/visualligence.js"></script>
+	<script src="../patterns/visualligence/table/table.js"></script>
+	<script src="../sources/sources.js"></script>
+	<script src="../sources/googledocs/googledocs.js"></script>
+
+	<script src="js/plugins.js"></script>
+	<script src="js/script.js"></script>
+
+	<script>$("body").fadeIn();</script>
+
+<!--[if lt IE 7 ]>
+<script src="js/dd_belatedpng.js"></script>
+<script> DD_belatedPNG.fix('img, .png_bg'); </script>
+<![endif]-->
+
+<!--
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-19992581-1']);
+	_gaq.push(['_setDomainName', '.stripedbee.com']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+-->
+
+</body> 
+</html>

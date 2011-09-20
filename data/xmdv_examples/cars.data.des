@@ -1,0 +1,9 @@
+-f
+mpg REAL 1
+cylinders REAL 2
+displacement REAL 3
+horsepower REAL 4
+weight REAL 5
+acceleration REAL 6
+model.year REAL 7
+origin REAL 8
