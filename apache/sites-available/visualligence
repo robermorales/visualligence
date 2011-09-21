@@ -1,0 +1,8 @@
+Listen 333
+NameVirtualHost *:333
+
+<VirtualHost *:333>
+DocumentRoot /var/www/visualligence
+</VirtualHost>
+
+
