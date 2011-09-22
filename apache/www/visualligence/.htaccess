@@ -1,0 +1,6 @@
+AuthUserFile /home/rober/.htpasswd
+AuthName "private zone"
+AuthType Basic
+
+#Require valid-user
+Require User rober 
