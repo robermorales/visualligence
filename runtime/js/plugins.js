@@ -19,5 +19,5 @@ window.log = function(){
 
 window.userlog = function( text ){
 	console.log( 'userlog: ' +  text );
-	$( "span#userlog" ).html( text );
+	$( "span#userlog" ).text( text );
 };

@@ -2,7 +2,7 @@
 
 // https://code.google.com/intl/es/apis/chart/image/docs/gallery/scatter_charts.html
 
-function datatoscatter( data, el )
+function datatogscatter( data, el )
 {
 	var w = 600;//600
 	var h = 500;//500

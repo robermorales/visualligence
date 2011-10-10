@@ -1,0 +1,41 @@
+- {hour: 17.949357287318886, minute: 51, oid: 1, second: 33, size: 83, source: 97,
+  target: 52}
+- {hour: 15.40563952045152, minute: 3, oid: 2, second: 29, size: 84, source: 151,
+  target: 177}
+- {hour: 7.12529621436604, minute: 26, oid: 3, second: 53, size: 66, source: 71, target: 155}
+- {hour: 4.894401451354298, minute: 44, oid: 4, second: 12, size: 43, source: 16,
+  target: 163}
+- {hour: 14.945848443617137, minute: 45, oid: 5, second: 16, size: 46, source: 74,
+  target: 6}
+- {hour: 5.321413849888076, minute: 1, oid: 6, second: 11, size: 99, source: 151,
+  target: 53}
+- {hour: 27.80467923098098, minute: 26, oid: 7, second: 33, size: 86, source: 191,
+  target: 78}
+- {hour: 8.651669720248847, minute: 56, oid: 8, second: 10, size: 47, source: 102,
+  target: 159}
+- {hour: 21.114384506853643, minute: 26, oid: 9, second: 51, size: 67, source: 108,
+  target: 78}
+- {hour: 0.839718591125898, minute: 42, oid: 10, second: 12, size: 69, source: 144,
+  target: 110}
+- {hour: 12.711224798561595, minute: 55, oid: 11, second: 14, size: 68, source: 163,
+  target: 96}
+- {hour: 34.13476313991251, minute: 36, oid: 12, second: 14, size: 78, source: 39,
+  target: 139}
+- {hour: 47.72298593693303, minute: 25, oid: 13, second: 9, size: 88, source: 107,
+  target: 7}
+- {hour: 11.119065413420298, minute: 25, oid: 14, second: 39, size: 46, source: 124,
+  target: 103}
+- {hour: 31.671891204059264, minute: 7, oid: 15, second: 37, size: 84, source: 113,
+  target: 115}
+- {hour: -8.33434640095465, minute: 15, oid: 16, second: 40, size: 96, source: 17,
+  target: 97}
+- {hour: 5.274044410861597, minute: 4, oid: 17, second: 53, size: 81, source: 107,
+  target: 59}
+- {hour: -5.723974879186539, minute: 30, oid: 18, second: 42, size: 49, source: 101,
+  target: 184}
+- {hour: 29.229423984357236, minute: 34, oid: 19, second: 46, size: 43, source: 86,
+  target: 64}
+- {hour: 2.4625863968847455, minute: 38, oid: 20, second: 48, size: 63, source: 101,
+  target: 83}
+- {hour: -9.16910560033596, minute: 51, oid: 21, second: 53, size: 60, source: 5,
+  target: 126}

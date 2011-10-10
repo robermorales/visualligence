@@ -2,7 +2,7 @@ Listen 333
 NameVirtualHost *:333
 
 <VirtualHost *:333>
-	AllowOverride Auth
+	#AllowOverride Auth
 
 	LogFormat "%{Host}i %h %l %u %t \"%r\" %s %b \"%{Referer}i\" \"%{User-Agent}i\" \"%{accept-language}i\" %T" complete
 	LogFormat "%h %l %u %t \"%r\" %s %b" simple
@@ -11,6 +11,9 @@ NameVirtualHost *:333
 	ErrorLog  ${APACHE_LOG_DIR}/visualligence.error.log
 
 	DocumentRoot /var/www/visualligence
+
+	Options +ExecCGI
+	AddHandler cgi-script .py
 </VirtualHost>
 
 

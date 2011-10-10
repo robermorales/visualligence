@@ -1,5 +1,3 @@
-#!/usr/bin/hugs
+main = print( fac 13 )
 
-let x = map ^2 [1..100] in
-	print x
-
+fac n = foldl (*) 1 [1..n-1]

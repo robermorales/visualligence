@@ -2,10 +2,10 @@
 
 // https://code.google.com/intl/es/apis/chart/image/docs/gallery/scatter_charts.html
 
-function datatobarchart( data, el )
+function datatogbarchart( data, el )
 {
-	var w = 600;//600
-	var h = 500;//500
+	var w = 800;//800
+	var h = 300;//500
 	var x = "";
 	var y = "";
 	var s = "";

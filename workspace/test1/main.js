@@ -21,7 +21,7 @@ var project = {
 	},
 	patterns : {
 		'viz1' : {
-			type : 'googlestatic/scatter'
+			type : 'visualligence/table'
 		}
 	}
 };
