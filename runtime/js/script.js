@@ -34,6 +34,7 @@ function end()
 $("button#loaddata")       .click( loaddata );
 
 $("button#datatotable")    .click( function(){ init(); datatotable(     global_data, $( "div#datavis_main" ) ); end(); });
-$("button#datatobarchart") .click( function(){ init(); datatobarchart(  global_data, $( "div#datavis_main" ) ); end(); });
+$("button#datatobarchart") .click( function(){ init(); datatotbarchart(  global_data, $( "div#datavis_main" ) ); end(); });
+$("button#datatotjava") .click( function(){ init(); datatotjava(  global_data, $( "div#datavis_main" ) ); end(); });
 $("button#datatogbarchart").click( function(){ init(); datatogbarchart( global_data, $( "div#datavis_main" ) ); end(); });
 $("button#datatogscatter") .click( function(){ init(); datatogscatter(  global_data, $( "div#datavis_main" ) ); end(); });

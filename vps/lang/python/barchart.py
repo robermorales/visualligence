@@ -12,7 +12,7 @@ class barchart:
 #		print( 'Content-Type: text/plain' )
 		print( 'Content-Type: image/svg+xml' )
 		print( 'Access-Control-Allow-Origin: *' )
-		print( '\n' ) #end headers
+		print( '' ) #end headers
 
 		print( '''<svg
 			xmlns:svg="http://www.w3.org/2000/svg"
