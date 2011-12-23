@@ -13,7 +13,7 @@ NameVirtualHost *:333
 	DocumentRoot /var/www/visualligence
 
 	Options +ExecCGI
-	AddHandler cgi-script .py
+	AddHandler cgi-script .py .class .jar
 </VirtualHost>
 
 
