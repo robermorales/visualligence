@@ -1,5 +1,11 @@
-README file for visualligence project.
+Visualligence
+=============
 
-In this project we will try to make significant advances in data visualization: graphics development and usage.
+Source code for a backend for projects involving data visualization: graphics development and usage.
 
-For further information, please contact rober.morales@gmail.com
+Source datasets and execution of visualizations are extern to that project.
+
+For further information, please contact [rober.morales@gmail.com]
+
+
+
