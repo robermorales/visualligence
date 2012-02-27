@@ -5,7 +5,7 @@ Source code for a backend for projects involving data visualization: graphics de
 
 Source datasets and execution of visualizations are extern to that project.
 
-For further information, please contact [rober.morales@gmail.com]
+For further information, please contact rober.morales@gmail.com or visit http://visualligence.com/
 
 
 
